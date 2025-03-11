@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 2085, in script
+    $ friendship_score += 1
+  File "game/script.rpy", line 2085, in <module>
+    $ friendship_score += 1
+NameError: name 'friendship_score' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 2085, in script
+    $ friendship_score += 1
+  File "/Users/jadethach/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Users/jadethach/Desktop/renpy-8.3.4-sdk/renpy/python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 2085, in <module>
+    $ friendship_score += 1
+NameError: name 'friendship_score' is not defined
+
+macOS-13.4-arm64-arm-64bit arm64
+Ren'Py 8.3.4.24120703
+The First Week 1.0
+Tue Mar 11 03:24:14 2025
